@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" media="screen and (min-width:992px)" href="module2-soloution.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="modoule2-soloution2.css">
+    <link rel="stylesheet" media="screen and (min-width:769px) and ( max-width:991px)" href="modoule2-soloution3.css">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+  
+      #small{
+          display: none;
+      }
+      @media(max-width:768px){
+          #small{
+              display: block;
+          }
+      }
+      .checkbtn{
+          font-size: 30px;
+          color: rgb(0, 5, 8);
+          float: right;
+          
+          line-height: 80px;
+          margin-right: 40px;
+          cursor: pointer;
+          display: none;
+      }
+      #check{
+          display: none;
+      }
+      @media(min-width: 769px){
+          ul{
+              display: none;
+          }
+      }
+     @media(max-width: 768px){
+         .checkbtn{
+             display: flex;
+           
+         }
+         ul{
+           
+             position: fixed;
+             width: 50%;
+             height: 30vh;
+             background-color: rgb(56, 15, 15);
+             top: 80px;
+             left: -100%;
+             text-align: center;
+             transition: all 0.5ms;
+         }
+         nav ul li{
+             display: block;
+         }
+         nav ul li a{
+           font-size: 20px;
+         }
+         a:hover,a.active{
+             background: none;
+             color: bisque;
+         }
+         #check:checked ~ ul{
+             left: 0;
+         }
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+<h3>Food,LLc</h3>
+<input type="checkbox" id="check">
+<label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+</label>
+<ul>
+    <li><a href="#chicken">chicken</a></li>
+    <li><a href="#beef">beef</a></li>
+    <li><a href="#sushi">sushi</a></li>
+</ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h2 class="menu">OUR MENU</h2>
+        <div id="container">
+        <div id="chicken" class="item bg"><h3 class="pad">chicken</h3>
+        <div class="txt"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, vel tempora exercitationem est dolor voluptas, eum officia vero sequi accusantium libero, rem laborum ea aperiam ad! Ex eveniet excepturi vero exercitationem nisi accusantium perferendis sed suscipit modi? Perferendis hic obcaecati modi voluptas illo tempora molestiae. Tempore repudiandae atque at consequuntur inventore fugit nulla, non ipsa animi esse ab laudantium magni quibusdam optio sed eligendi, culpa dicta, voluptatum officiis alias! Provident, unde quos? Dolor assumenda repellendus temporibus eveniet quis non officia deserunt quas natus voluptate voluptates unde tempora hic ducimus eius nesciunt maiores adipisci iure, culpa nobis fugit architecto, optio possimus eum. Odit rerum voluptate debitis libero culpa obcaecati iste facilis ex temporibus. Possimus repellendus neque culpa vel placeat. Voluptas distinctio culpa incidunt earum cum recusandae rerum nostrum sequi fugit sapiente tenetur quae commodi consectetur, quisquam qui at sunt eligendi. Quisquam itaque non laboriosam maxime quia fugit mollitia adipisci commodi ipsam tenetur velit perferendis aliquid ratione saepe quibusdam, rem accusamus distinctio voluptas. Alias quisquam quo animi tempora, blanditiis fuga dignissimos earum dolor necessitatibus cum, dolorum libero. Excepturi quas veniam asperiores laborum commodi aspernatur accusantium delectus porro! Inventore, aut quia, aliquam aspernatur odit qui vel vero fugit laudantium laboriosam enim iure corrupti voluptates esse sequi quae sint? Dicta ad magnam vel et voluptates tempora unde atque, excepturi quisquam, aliquid, perferendis cupiditate. Ex distinctio quis id repellat velit libero minus provident voluptas rem vel, maxime doloremque? Modi tempora repellat aut maiores, harum minus accusantium neque dolor architecto cum quo eos, unde dolores deserunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore doloribus temporibus vel aut alias, inventore suscipit, voluptates dolorum officiis non vitae, dolor aliquid autem!</div></div>
+        <div id="beef" class="item bg"><h3 class="pad">beef</h3>
+        <div class="txt">Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem velit delectus, quidem dolorum natus quia molestiae ut excepturi qui culpa error voluptate sint aliquid beatae omnis adipisci soluta asperiores cum minima repudiandae! Quod aspernatur consequatur nihil laboriosam voluptatem natus officia nisi porro. Sequi nihil ratione accusamus esse sit illo autem, architecto quasi impedit itaque voluptatem iure ipsa nulla! Eos, qui, nostrum saepe perspiciatis fugiat aspernatur autem quidem corrupti nesciunt officiis quo reiciendis. Mollitia aliquid ipsum consequuntur in exercitationem odit unde beatae, delectus quis illo fugiat deleniti maiores nulla officia explicabo culpa placeat ab nam. Perferendis, sint. Ut mollitia maxime, consectetur blanditiis a libero laudantium dicta? Hic, nostrum iure dolores, error consectetur labore, soluta laudantium dolorem cum quaerat voluptatem eveniet ut! Fugiat, et. Dolorem corrupti neque, vitae praesentium commodi eaque? Explicabo maiores dolor aliquid ullam dolores. Nihil pariatur aliquam illum quam nesciunt optio explicabo mollitia dicta porro perspiciatis! Aperiam animi, omnis similique molestias laboriosam architecto quibusdam et asperiores aut deleniti fugit quas blanditiis iusto excepturi beatae reiciendis ipsum inventore facere doloremque! Ratione enim totam autem odit accusamus optio corrupti veniam delectus, aperiam odio quibusdam voluptate recusandae quo animi non quisquam cupiditate aspernatur, officia necessitatibus quam, asperiores itaque nulla nobis eaque. Error magni labore nostrum ducimus ipsa consectetur sit cumque quidem saepe alias totam dolores iure velit dicta minus dolorum vero cum porro quo eaque quam amet, in debitis. Maiores distinctio delectus maxime veritatis qui officia aut nemo mollitia blanditiis quia voluptatibus voluptatem at iure, impedit libero excepturi est, earum molestias voluptatum.ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore doloribus temporibus vel aut alias, inventore suscipit, voluptates dolorum officiis non vitae, dolor aliquid autem!</div></div>
+        <div id="sushi" class="item bg"><h3 class="pad">sushi</h3>
+        <div class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore doloribus temporibus vel aut alias, inventore suscipit, voluptates dolorum Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nihil. Doloribus accusamus eos sapiente iste quibusdam porro sint amet dolores quis repudiandae! Earum quisquam porro enim culpa laborum nostrum tenetur qui adipisci nulla nobis? Magni iusto earum ab tempora voluptatem modi iure repellat eos dolores officiis nam beatae labore nisi natus illo, amet libero vel temporibus suscipit nemo eaque aspernatur itaque rem quidem! Error, assumenda molestiae fugiat id, architecto voluptates ullam sed quae placeat, ratione excepturi exercitationem sint laboriosam nisi facilis itaque quisquam et ducimus veritatis voluptas! Modi ipsum velit rem, reiciendis, quis quam impedit quia quasi esse delectus incidunt, amet minima unde. Nihil nam sequi maxime, officia perferendis sit quo perspiciatis quam. Cum exercitationem, ipsam ullam error animi laudantium totam a odio optio enim nesciunt sint, magnam repudiandae alias at dolor aliquid, autem architecto numquam consequatur vitae. Hic nisi quod praesentium quam eos ex maiores ipsam a eius, doloremque possimus nobis velit explicabo nostrum consequuntur atque nesciunt magni dolore quasi impedit dolorum dolores expedita exercitationem qui. Ratione, fugiat? Reprehenderit dolorum pariatur eveniet magnam vero rerum illum ab perferendis, porro, enim similique, quaerat vitae animi placeat hic. Debitis unde, molestiae dolore aliquid quas culpa architecto earum suscipit vitae. Eveniet blanditiis tempore impedit unde eaque reprehenderit fugiat a nemo esse quasi, amet facilis possimus, placeat maiores recusandae suscipit totam dolorum sint iure non magnam eum quia pariatur. Adipisci dolore, nesciunt quam, consequatur necessitatibus cupiditate possimus in blanditiis accusamus sint illo officiis excepturi laborum incidunt ipsa architecto perspiciatis deserunt reiciendis culpa rem. officiis non vitae, dolor aliquid autem! <a id="small" href="#chicken">go to top</a></div></div>
+    </div>
+</body>
+</html>

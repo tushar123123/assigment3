@@ -1,0 +1,51 @@
+#header-nav{
+    background-color: gray;
+    border-radius: 0;
+    border: solid 2px black;
+}
+.menu
+{
+    text-align: center;
+margin: 10px;
+
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+#container .txt{
+padding: 10px;
+padding-top: 25px;
+font-family: 'Raleway', sans-serif;
+
+}
+.pad{
+    padding: 0px 20px;
+    margin: 0px;
+   
+}
+#container .item{
+   
+    margin: 20px;
+    }
+#container .item{
+    background-color: grey;
+  
+
+}
+
+#chicken h3{
+   text-align: center;
+}
+#beef h3{
+ text-align: center;
+}
+#sushi h3{
+    text-align: center;
+   
+}
